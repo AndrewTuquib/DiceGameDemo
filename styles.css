@@ -1,0 +1,100 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+h2 {
+  margin: 30px;
+  text-shadow: 5px 0 #232931;
+  font-size: 3rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-weight: 600;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+
+}
+
+.btn {
+  background-color: orange;
+  font-weight: 900;
+  width: 200px;
+  margin: 50px auto auto;
+  padding: 5px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.btn p{
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.btn p:hover {
+  color: white;
+}
+
+.btn p:active {
+  color: orange;
+  padding: 0;
+
+}
+
+.btn:active {
+  background-color: transparent;
+  border: solid 3px orange;
+}
+
+#playAgain {
+  background-color: white;
+  width: 300px;
+  display: none;
+}
+
+#playAgain p {
+  color: orange;
+}
+
+.isLeading {
+  color: white;
+  background-color: orange;
+  border-radius: 30px;
+}
