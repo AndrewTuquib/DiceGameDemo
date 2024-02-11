@@ -8,6 +8,13 @@ html {
   text-align: center;
 }
 
+.diceBody {
+  margin: 150px auto;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
 .dice {
   text-align: center;
   display: inline-block;
